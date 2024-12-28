@@ -3,8 +3,8 @@
 ### How to run
 1. Clone this repository
 
-2. Create local .env file by copy this code
-This is .env file
+2. Create local .env file by copy this code<br />
+This is the .env file
 ```
 APP_NAME=Laravel
 APP_ENV=local
