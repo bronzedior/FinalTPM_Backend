@@ -75,5 +75,10 @@ AWS_USE_PATH_STYLE_ENDPOINT=false
 VITE_APP_NAME="${APP_NAME}"
 ```
 
+3. Run terminal
+```
+php artisan serve
+```
+
 ### Note
 ./resources/views folder (User Interface) is replaceable, only for testing
