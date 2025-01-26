@@ -11,6 +11,15 @@
     @livewireStyles
 </head>
 <body>
+
+    <a href="{{route('login')}}" class="btn btn-success">Login</a>
+    <a href="{{route('auth.registerGroup')}}" class="btn btn-success">Register</a>
+
+    {{-- <form action="{{ route('logout') }}" method="POST" class="d-flex" >
+        @csrf
+        <button class="btn btn-danger" type="submit">Logout</button>
+    </form> --}}
+
     @livewire('contact-form')
 
     @livewireScripts
